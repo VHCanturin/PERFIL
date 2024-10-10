@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Asesoría en Gobierno y Política con distinción y profesionalismo">
+    <title>Asesor en Gobierno y Política - Distinción y Solvencia</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Aquí puedes enlazar tu archivo CSS externo -->
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #002244; /* Azul elegante oscuro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #011a33; /* Azul aún más profundo */
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffcc00; /* Dorado sutil */
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        /* Sección principal (hero) */
+        .hero {
+            background-image: url('banner-politica.jpg'); /* Imagen de fondo elegante */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .cta-button {
+            background-color: #ffcc00; /* Dorado sutil */
+            color: #002244;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        /* Secciones personalizables */
+        section {
+            padding: 50px 20px;
+            background-color: white;
+            margin: 20px 0;
+        }
+
+        section h2 {
+            color: #002244;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        section p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Sección de contacto */
+        .contacto {
+            background-color: #011a33; /* Azul oscuro profundo */
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contacto h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .contacto form input, .contacto form textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contacto form button {
+            background-color: #ffcc00; /* Dorado */
+            color: #002244;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #002244;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Asesor en Gobierno y Política</h1>
+        <p>Solvencia y Distinción en cada análisis</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección principal (hero) -->
+    <section class="hero" id="inicio">
+        <h2>Soluciones Estratégicas en Gobierno y Política</h2>
+        <p>Asesoría de alto nivel para quienes buscan marcar la diferencia</p>
+        <a href="#contacto" class="cta-button">Solicita una Consulta</a>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos asesoría integral en políticas públicas, gobernanza y análisis político, diseñada para líderes y organizaciones que desean destacar.</p>
+    </section>
+
+    <!-- Sección de Experiencia -->
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <p>Con más de 20 años de experiencia en el análisis político y asesoría a altos funcionarios gubernamentales, nuestro enfoque estratégico se basa en la precisión, la confianza y la excelencia.</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <h3>Contáctanos</h3>
+        <form action="enviar_formulario.php" method="POST">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Asesor en Gobierno y Política. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
